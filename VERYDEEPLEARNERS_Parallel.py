@@ -6,6 +6,7 @@ Wan Muhammad Danial Bin Zulkifli (81475)
 Muhammad Faaris Bin Jamhari (78196)
 
 Project Title: Distributed Learning of Deep Neural Networks
+Due Date: 14 January 2025 (4PM)
 
 *** CODE EXPLANATION ***
             ###########################
