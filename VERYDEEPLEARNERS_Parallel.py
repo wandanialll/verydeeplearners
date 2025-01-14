@@ -1,3 +1,34 @@
+"""
+Group: VERY DEEP LEARNERS
+
+Members:
+Wan Muhammad Danial Bin Zulkifli (81475)
+Muhammad Faaris Bin Jamhari (78196)
+
+Project Title: Distributed Learning of Deep Neural Networks
+
+*** CODE EXPLANATION ***
+            ###########################
+THIS IS THE ##PARALLEL IMPLEMENTATION## OF THE VERY DEEP LEARNERS PROJECT.
+            ###########################
+
+Input : The code requires no user input,
+        But the parameters can be adjusted to change the number of epochs, batch size, and learning rate.
+        Differential equations for the prey-predator model are defined in the function df1.
+        The initial values for the ODE is arbitrary and can be changed within the code
+
+Output: The code will output the plot of the prey-predator model using the ODE solver and the neural network predictions.
+        It will also print out the training time for the neural network and the total execution time.
+
+Compilation and execution instructions:
+1. Make sure mpi4py, numpy, scipy, tensorflow, and matplotlib are installed.
+2. Run the code using the following command:
+    mpiexec -n <number of processes> python VERYDEEPLEARNERS_Parallel.py
+    or if using mac/linux:
+    mpirun -n <number of processes> python VERYDEEPLEARNERS_Parallel.py
+    **Note: Check Python version and mpi4py installation path if there are any issues.
+"""
+
 from mpi4py import MPI
 import numpy as np
 from scipy.integrate import odeint
